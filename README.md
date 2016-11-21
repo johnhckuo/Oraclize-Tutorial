@@ -38,7 +38,7 @@ contract YoutubeViews is usingOraclize {
 }
 ```
 The example shows three steps to utilize the oraclize service:
-> + Constructor will first call the update function, which will trigger the orclize_query transaction and commence data fetching process.
+> + Constructor will first call the `update` function, which will trigger the orclize_query transaction and commence data fetching process.
 > + Once the data query returns the result, it will call the `__callback function` with the result passed into the function.
 > + We can now do some operation using the code defined in `__callback function`, and you can also call `update function` again if you want to execute the query once in a while.
 
