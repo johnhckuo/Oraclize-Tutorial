@@ -50,7 +50,7 @@ If you are currently using private chain, you need to use the Ethereum-Bridge AP
 > + Unlock certain account (in this example we will use acoounts[0]) by using `geth --unclock 0`, and execute `node plugin -H localhost:8545 -a 0`. (make sure the account you unlock matches the account input to plugin.js)
 > + Once you execute plugin.js, it will generate OAR for you to place in the constructor of your contract. After compiling it, you need to deploy it using any accounts except for the account you just unlocked.
 
-# Schedule function
+# Scheduler
 Since smart contract can onlu be triggered by transaction, it is hard to have code executed in a specified timestamp. However, there are already some solutions to this issue, for instance, the Ethereum Alarm Clock service.
 This part we are gonna use Oraclize as a scheduler instead of an oracle. How ? The following example will show you
 ```javascript
