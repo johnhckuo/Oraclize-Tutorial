@@ -2,7 +2,9 @@
 ## Introduction
 Oracle service build the bridge between blockchain and the real world, and the following image describes the underlying mechanism of the Oralize service.
 
-![alt tag](https://docs.oraclize.it/images/flowchart.png)
+<p align=center>
+<img src="https://docs.oraclize.it/images/flowchart.png">
+</p>
 
 It uses the TLSNotary to make its serivce trust-worthy, and pre-fetch the real world data for all the nodes within the network to achieve consensus, which cannot be easiliy done without oracle serivce.
 
