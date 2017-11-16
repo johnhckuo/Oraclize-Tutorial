@@ -1,5 +1,5 @@
 # Oraclize-Tutorial
-##Introduction
+## Introduction
 Oracle service build the bridge between blockchain and the real world, and the following image describes the underlying mechanism of the Oralize service.
 
 ![alt tag](https://docs.oraclize.it/images/flowchart.png)
@@ -49,7 +49,7 @@ If you are currently using private chain, you need to use the Ethereum-Bridge AP
 > + The bridge will automatically deploys the Oraclize Address Resolver (OAR) and the Oraclize Connector in the private chain, which interface your contract with the Oraclize service. Please note: your contract shouldn't be deployed with the same address used by the Ethereum Bridge (in this example the address 0).
 
 ## Scheduler
-Since smart contract can onlu be triggered by transaction, it is hard to have code executed in a specified timestamp. However, there are already some solutions to this issue, for instance, the Ethereum Alarm Clock service.
+Since smart contract can only be triggered by transaction, it is hard to have code executed in a specified timestamp. However, there are already some solutions to this issue, for instance, the Ethereum Alarm Clock service.
 This part we are gonna use Oraclize as a scheduler instead of an oracle. How ? The following example will show you
 ```javascript
 import "dev.oraclize.it/api.sol";
