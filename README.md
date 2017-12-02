@@ -42,7 +42,7 @@ The example shows three steps to utilize the oraclize service:
 > + Once the data query returns the result, it will call the `__callback function` with the result passed into the function.
 > + We can now do some operation using the code defined in `__callback function`, and you can also call `update function` again if you want to execute the query once in a while.
 
-``Note: Please note that in order for the future timestamp to be accepted by Oraclize it must be within 60 days from the current time. ``
+``Caution! Please note that in order for the future timestamp to be accepted by Oraclize it must be within 60 days from the current time. ``
 
 ## Private chain scenarios
 If you are currently using private chain, you need to use the Ethereum-Bridge API, which is a log listener listens to the oraclize query from private chain and connect to oraclize service. The following list the steps of using Ethereum-Bridge:
