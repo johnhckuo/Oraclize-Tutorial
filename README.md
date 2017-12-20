@@ -8,7 +8,7 @@ The following image describes the underlying mechanism of the Oraclize.
 <img src="https://docs.oraclize.it/images/flowchart.png">
 </p>
 
-It uses the TLSNotary to make its serivce trust-worthy, and pre-fetch the real world data for all the nodes within the network to achieve consensus, which cannot be easiliy done without oracle serivce.
+It uses the TLSNotary to make its serivce trust-worthy, and pre-fetch the real world data for all the nodes within the network to achieve consensus, which cannot be easiliy done with Ethereum smart contract.
 
 ## Example explanation
 The following example shows a simple contract using the orcalize serivce
