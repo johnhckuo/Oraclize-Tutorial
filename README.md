@@ -1,6 +1,6 @@
 # Oraclize-Tutorial
 ## Introduction
-Oracle service builds the bridge between blockchain and the real world, and the following image describes the underlying mechanism of the [Oraclize](http://www.oraclize.it/).
+Oracle service builds the bridge between blockchain and the real world, and we are going to introduce an oracle service called [Oraclize](http://www.oraclize.it/). The following image describes the underlying mechanism of the Oraclize.
 
 <p align=center>
 <img src="https://docs.oraclize.it/images/flowchart.png">
