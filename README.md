@@ -50,11 +50,11 @@ The example shows three steps to utilize the oraclize service:
 If you are currently using private chain, you need to use the Ethereum-Bridge API, which is a log listener listens to the oraclize query from private chain and connect to oraclize service. The following list the steps of using Ethereum-Bridge:
 + Download the repository of Ethereum-Bridge by using `git clone https://github.com/oraclize/ethereum-bridge`, and execute `npm install` in the nodejs folder.
 + Unlock certain account (in this example we will use acoounts[0]) by using `geth --unclock 0`, and execute `node bridge -H localhost:8545 -a 0`. (make sure the account you unlock matches the account input to the bridge)
-+ The bridge will automatically deploys the Oraclize Address Resolver (OAR) and the Oraclize Connector in the private chain, which interface your contract with the Oraclize service. Please note: your contract shouldn't be deployed with the same address used by the Ethereum Bridge (in this example the address 0).
++ The bridge will automatically deploys the Oraclize Address Resolver (OAR) and the Oraclize Connector in the private chain, which interface your contract with the Oraclize service. Please note that your contract shouldn't be deployed with the same address used by the Ethereum Bridge (in this example the address 0).
 
 ## Scheduler
 Since smart contract can only be triggered by transaction, it is hard to have code executed in a specified timestamp. However, there are already some solutions to this issue, for instance, the Ethereum Alarm Clock service.
-This part we are gonna use Oraclize as a scheduler instead of an oracle. How ? The following example will show you
+This part we are gonna use Oraclize as a scheduler instead of the alarm clock service. How ? The following example will show you
 ```javascript
 import "dev.oraclize.it/api.sol";
 contract YoutubeViews is usingOraclize {
